@@ -28,3 +28,22 @@ dt {
 	font-size: 2em;
 	font-weight: bold;
 }
+
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: maroon;
+}
+
+/* selected link */
+a:active {
+  color: maroon;
+}
