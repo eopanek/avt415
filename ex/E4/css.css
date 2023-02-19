@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+    font-family: 'Arima', cursive;
+    font-size: 1em;
+    font-weight: 300;
+    margin-right: 15%;
+    margin-left: 15%;
+    background-color: #F9FEF8;
+    background-image: linear-gradient(#FFD4D4,#FFFFE8,#CDE990);
+}
+
+.author {
+    font-family: 'Arima', cursive;
+    font-weight: 100;
+    font-size: .83em;
+    color: black;
+    text-align: left;
+}
+
+/* unvisited link */
+a:link {
+  color: midnightblue;
+}
+
+/* visited link */
+a:visited {
+  color: darkslateblue;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: darkslateblue;
+}
+
+h1 {
+    font-family: 'Bubblegum Sans', cursive;   
+    font-size: 6em;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 2.2em;
+    margin-bottom: -.1%;
+}
+
+.text{
+    padding-left: 7%;
+    text-align: left;
+}
+
+.def {
+    font-family: 'Arima', cursive;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+    
+.info{
+    padding-left: 6%;
+    padding-right: 20%;
+    text-align: justify;
+}
+
+.intro {
+    font-family: 'Arima', cursive;
+    font-size: 1.3em;
+    font-weight: 400;
+}
