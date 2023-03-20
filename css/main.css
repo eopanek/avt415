@@ -1,33 +1,120 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/*font-family: 'Baskervville', serif;
+font-family: 'Bellefair', serif;
+font-family: 'Big Shoulders Stencil Display', cursive;
+font-family: 'Flavors', cursive;
+font-family: 'Fleur De Leah', cursive;
+font-family: 'Gloock', serif;
+font-family: 'Mountains of Christmas', cursive;
+font-family: 'Mystery Quest', cursive;
+font-family: 'Shippori Mincho', serif;
+font-family: 'Sorts Mill Goudy', serif;
+font-family: 'Spirax', cursive;
+font-family: 'Taviraj', serif;
+font-family: 'Volkhov', serif;
+font-family: 'Zen Loop', cursive;*/
 html {font-size: 100%;} /*16px*/
 
 body {
-  background-color: lemonchiffon;
-  color: maroon;
+background-color:hsla(288,95%,25%,1);
+background-image:
+radial-gradient(at 35% 32%, hsla(50,100%,89%,0.45) 0px, transparent 50%),
+radial-gradient(at 47% 74%, hsla(50,100%,89%,0.45) 0px, transparent 50%),
+radial-gradient(at 29% 27%, hsla(21,90%,48%,1) 0px, transparent 50%),
+radial-gradient(at 67% 65%, hsla(50,100%,89%,0.59) 0px, transparent 50%),
+radial-gradient(at 56% 33%, hsla(50,100%,89%,1) 0px, transparent 50%),
+radial-gradient(at 56% 6%, hsla(21,90%,48%,1) 0px, transparent 50%),
+radial-gradient(at 27% 100%, hsla(288,91%,21%,0.53) 0px, transparent 50%),
+radial-gradient(at 37% 92%, hsla(21,100%,48%,1) 0px, transparent 50%),
+radial-gradient(at 0% 14%, hsla(288,95%,25%,0.49) 0px, transparent 50%),
+radial-gradient(at 69% 73%, hsla(21,100%,48%,1) 0px, transparent 50%),
+radial-gradient(at 47% 70%, hsla(21,90%,48%,1) 0px, transparent 50%),
+radial-gradient(at 20% 62%, hsla(21,90%,48%,1) 0px, transparent 50%),
+radial-gradient(at 22% 58%, hsla(50,100%,89%,0.46) 0px, transparent 50%),
+radial-gradient(at 79% 34%, hsla(21,90%,48%,1) 0px, transparent 50%);
+    color: maroon;
   margin: 0;
   padding: 50px;
   line-height: 1.75;
+    font-family: 'Sorts Mill Goudy', serif;
 }
+.flex-container > .tt{
+     display: flex;
+     flex-direction: row;
+    align-items: baseline;
+    }
+
+.stuff{
+margin-right: 5%;
+}
+
+
 h1 {
-
-  font-size: 5em;
+    font-size: 7em;
+    font-family: 'Fleur De Leah', cursive;
 }
 
-h2 {font-size: 3em;
+h2 {
+    font-size: 3.5em;
+    margin-bottom: -.3em;
+    font-family: 'Spirax', cursive;
 
 }
+.p{
+    padding-left: 5%;
+    padding-right: 10%;
+    
+}
 
-h4 {font-size: 1.5em;
-margin-top: 0;
+.txt{
+    padding: 0%5%10%;
 
+}
+.exs{
+    display: block;
+    float: left;
+    width: 30%;
+    margin-top: -11%;
+}
+
+.columnb{
+    width: 70%;
+    display: block;
+    float: left;
+ margin-top: -11%;
+}
+
+
+
+.ex > dl{
+    display: flex;
+     flex-direction: row;
+}
+.phase{
+    width: 50%;
+}
+
+
+
+.ex{
+    padding-left: 1%;
+    padding-right: 5%;
+}
+
+h4 {
+    font-size: 1.3em;
+    text-align: left;
+vertical-align:text-bottom;
 }
 
 dt {
 	font-size: 2em;
-	font-weight: bold;
+    font-family: 'Spirax', cursive;
+    padding-left: 15%;
 }
+
 
 a:link {
   color: black;
@@ -46,4 +133,5 @@ a:hover {
 /* selected link */
 a:active {
   color: maroon;
+}.tt {
 }
